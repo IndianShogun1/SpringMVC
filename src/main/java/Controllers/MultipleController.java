@@ -13,7 +13,7 @@ public class MultipleController extends MultiActionController {
 
     public ModelAndView first(HttpServletRequest request, HttpServletResponse response) throws Exception{
         ModelAndView modelAndView=new ModelAndView("index");
-        modelAndView.addObject("x","Payal");
+        modelAndView.addObject("x","Shreyansh");
         return modelAndView;
     }
 
@@ -22,7 +22,7 @@ public class MultipleController extends MultiActionController {
     {
 
         PrintWriter printWriter=response.getWriter();
-        printWriter.println("<p>hello Payal</p>");
+        printWriter.println("<p>hello Shreyansh</p>");
 
 
     }
